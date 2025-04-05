@@ -16,7 +16,7 @@ const HeroSection = () => {
               Sri Hindwani Electricals - Authorized Finolex Dealer
             </h1>
             <p className="text-lg mb-8">
-              Your trusted partner for premium electrical supplies, professional services, and expert advice in Bengaluru.
+              Your trusted partner for premium electrical supplies and products with quality assurance in Bengaluru.
             </p>
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
               <a href="#products">
@@ -28,8 +28,7 @@ const HeroSection = () => {
               </a>
               <a href="#contact">
                 <Button 
-                  variant="outline" 
-                  className="border-2 border-white hover:bg-white hover:text-[#0052A5] font-medium py-3 px-6 rounded-md transition-colors duration-300 w-full sm:w-auto"
+                  className="bg-white text-[#0052A5] hover:bg-gray-100 font-medium py-3 px-6 rounded-md w-full sm:w-auto"
                 >
                   Contact Us
                 </Button>
@@ -43,8 +42,8 @@ const HeroSection = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <img 
-              src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-              alt="Professional Electrician at Work" 
+              src="https://images.unsplash.com/photo-1597578923930-c777cfea7349?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+              alt="Premium Electrical Products" 
               className="rounded-lg shadow-xl" 
               width="600" 
               height="400"

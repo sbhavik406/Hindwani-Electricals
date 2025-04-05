@@ -52,13 +52,7 @@ const Header = () => {
             >
               Products
             </a>
-            <a 
-              href="#services" 
-              className="text-[#333333] font-medium hover:text-[#FF6B00] transition-colors"
-              onClick={handleLinkClick}
-            >
-              Services
-            </a>
+
             <a 
               href="#testimonials" 
               className="text-[#333333] font-medium hover:text-[#FF6B00] transition-colors"
@@ -103,13 +97,7 @@ const Header = () => {
           >
             Products
           </a>
-          <a 
-            href="#services" 
-            className="block py-2 text-[#333333] font-medium"
-            onClick={handleLinkClick}
-          >
-            Services
-          </a>
+
           <a 
             href="#testimonials" 
             className="block py-2 text-[#333333] font-medium"

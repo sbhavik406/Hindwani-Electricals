@@ -4,24 +4,24 @@ import { Button } from "@/components/ui/button";
 const ProductsSection = () => {
   const productCategories = [
     {
-      image: "https://images.unsplash.com/photo-1558402529-d2638a7027b9?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      title: "Wiring & Cables",
-      description: "High-quality electrical wires and cables for residential and commercial use."
+      image: "https://www.finolex.com/assets/img/fr-flame.jpeg",
+      title: "FINOULTRA Wires",
+      description: "Premium flame retardant wires with superior quality and durability for residential use."
     },
     {
-      image: "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      title: "Switches & Outlets",
-      description: "Modern switches, sockets, and outlets in various designs and finishes."
+      image: "https://www.finolex.com/assets/img/products/category_PANEL-WIRES.jpg",
+      title: "Panel Wires",
+      description: "High-quality panel wires for electrical installations with excellent insulation."
     },
     {
-      image: "https://images.unsplash.com/photo-1570618310838-d9a2a28ec4f7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      title: "Lighting Solutions",
-      description: "Energy-efficient indoor and outdoor lighting fixtures and bulbs."
+      image: "https://www.finolex.com/assets/img/products/category_DOMESTIC-CABLES.jpg",
+      title: "Domestic Cables",
+      description: "Reliable domestic cables for all your household electrical needs."
     },
     {
-      image: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      title: "Electrical Panels",
-      description: "Distribution boards, circuit breakers, and safety equipment."
+      image: "https://www.finolex.com/assets/img/products/category_INDUSTRIAL-CABLES.jpg",
+      title: "Industrial Cables",
+      description: "Heavy-duty industrial cables designed for commercial applications with safety."
     }
   ];
 
@@ -97,19 +97,7 @@ const ProductsSection = () => {
           ))}
         </motion.div>
 
-        <motion.div 
-          className="text-center mt-12"
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.4 }}
-        >
-          <Button 
-            className="bg-[#0052A5] hover:bg-blue-700 text-white font-medium py-3 px-8 rounded-md"
-          >
-            View All Products
-          </Button>
-        </motion.div>
+
       </div>
     </section>
   );
