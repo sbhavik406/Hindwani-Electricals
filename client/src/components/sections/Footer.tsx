@@ -4,8 +4,8 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4 font-['Inter']">Finolex Electric</h3>
-            <p className="mb-4">Your trusted partner for quality electrical supplies and professional services.</p>
+            <h3 className="text-xl font-bold mb-4 font-['Inter']">Sri Hindwani Electricals</h3>
+            <p className="mb-4">Authorized Finolex dealer providing quality electrical supplies and professional services in Bengaluru.</p>
             <div className="flex space-x-4">
               <a href="#" className="text-white hover:text-[#FF6B00] transition-colors">
                 <i className="fab fa-facebook-f"></i>
@@ -49,15 +49,15 @@ const Footer = () => {
             <ul className="space-y-2">
               <li className="flex items-start">
                 <i className="fas fa-map-marker-alt mt-1 mr-3 text-[#FF6B00]"></i>
-                <span>123 Electrical Avenue, Tech District<br/>Metro City, MC 12345</span>
+                <span>234, SV Ln, near Hotel Vijay Vihar, Mamulpet<br/>Chickpet, Bengaluru, Karnataka 560053</span>
               </li>
               <li className="flex items-center">
                 <i className="fas fa-phone-alt mr-3 text-[#FF6B00]"></i>
-                <span>+1 (555) 123-4567</span>
+                <span>+91 9916065658</span>
               </li>
               <li className="flex items-center">
                 <i className="fas fa-envelope mr-3 text-[#FF6B00]"></i>
-                <span>info@finolexelectric.com</span>
+                <span>srihindwanielectricals@gmail.com</span>
               </li>
               <li className="flex items-center">
                 <i className="fas fa-clock mr-3 text-[#FF6B00]"></i>
@@ -68,7 +68,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-sm">
-          <p>&copy; {new Date().getFullYear()} Finolex Electric. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Sri Hindwani Electricals - Authorized Finolex Dealer. All rights reserved.</p>
         </div>
       </div>
     </footer>

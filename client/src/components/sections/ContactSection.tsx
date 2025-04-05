@@ -207,7 +207,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-lg mb-1">Our Location</h4>
-                  <p className="text-gray-600">123 Electrical Avenue, Tech District<br/>Metro City, MC 12345</p>
+                  <p className="text-gray-600">234, SV Ln, near Hotel Vijay Vihar, Mamulpet<br/>Chickpet, Bengaluru, Karnataka 560053</p>
                 </div>
               </div>
 
@@ -217,8 +217,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-lg mb-1">Phone Number</h4>
-                  <p className="text-gray-600">+1 (555) 123-4567</p>
-                  <p className="text-gray-600">+1 (555) 987-6543</p>
+                  <p className="text-gray-600">+91 9916065658</p>
                 </div>
               </div>
 
@@ -228,8 +227,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-lg mb-1">Email Address</h4>
-                  <p className="text-gray-600">info@finolexelectric.com</p>
-                  <p className="text-gray-600">support@finolexelectric.com</p>
+                  <p className="text-gray-600">srihindwanielectricals@gmail.com</p>
                 </div>
               </div>
 

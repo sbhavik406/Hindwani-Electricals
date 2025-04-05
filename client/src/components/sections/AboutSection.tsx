@@ -48,11 +48,11 @@ const AboutSection = () => {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-4 font-['Inter'] text-[#0052A5]">
-            About Finolex Electric
+            About Sri Hindwani Electricals
           </h2>
           <div className="w-20 h-1 bg-[#FF6B00] mx-auto mb-6"></div>
           <p className="text-lg max-w-3xl mx-auto">
-            With over 25 years of experience, we are committed to providing the highest quality electrical products and services to homes and businesses across the region.
+            As an authorized Finolex dealer in Bengaluru, we are committed to providing the highest quality electrical products and services to homes and businesses across the region.
           </p>
         </motion.div>
 

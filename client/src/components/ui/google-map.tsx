@@ -9,9 +9,9 @@ interface GoogleMapProps {
 }
 
 const GoogleMap = ({
-  address = '123 Electrical Avenue, Tech District, Metro City',
-  lat = 40.7128,
-  lng = -74.0060,
+  address = '234, SV Ln, near Hotel Vijay Vihar, Mamulpet, Chickpet, Bengaluru, Karnataka 560053',
+  lat = 12.9676,
+  lng = 77.5822,
   zoom = 15,
   height = '300px',
 }: GoogleMapProps) => {

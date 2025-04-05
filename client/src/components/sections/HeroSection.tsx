@@ -13,10 +13,10 @@ const HeroSection = () => {
             transition={{ duration: 0.6 }}
           >
             <h1 className="text-4xl md:text-5xl font-bold mb-4 font-['Inter']">
-              Premium Electrical Solutions for Your Home & Business
+              Sri Hindwani Electricals - Authorized Finolex Dealer
             </h1>
             <p className="text-lg mb-8">
-              Your trusted partner for quality electrical supplies, professional services, and expert advice.
+              Your trusted partner for premium electrical supplies, professional services, and expert advice in Bengaluru.
             </p>
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
               <a href="#products">
