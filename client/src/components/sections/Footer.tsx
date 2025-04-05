@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#333333] text-white py-12">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div>
             <h3 className="text-xl font-bold mb-4 font-['Inter']">Sri Hindwani Electricals</h3>
             <p className="mb-4">Authorized Finolex dealer providing quality electrical wires and cables in Bengaluru since 2005.</p>
@@ -45,17 +45,6 @@ const Footer = () => {
               <li><a href="#products" className="hover:text-[#FF6B00] transition-colors">Products</a></li>
               <li><a href="#testimonials" className="hover:text-[#FF6B00] transition-colors">Testimonials</a></li>
               <li><a href="#contact" className="hover:text-[#FF6B00] transition-colors">Contact Us</a></li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="text-xl font-bold mb-4 font-['Inter']">Products</h3>
-            <ul className="space-y-2">
-              <li><a href="#" className="hover:text-[#FF6B00] transition-colors">Wiring & Cables</a></li>
-              <li><a href="#" className="hover:text-[#FF6B00] transition-colors">Switches & Outlets</a></li>
-              <li><a href="#" className="hover:text-[#FF6B00] transition-colors">Lighting Solutions</a></li>
-              <li><a href="#" className="hover:text-[#FF6B00] transition-colors">Electrical Panels</a></li>
-              <li><a href="#" className="hover:text-[#FF6B00] transition-colors">Safety Equipment</a></li>
             </ul>
           </div>
 

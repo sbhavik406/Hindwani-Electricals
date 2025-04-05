@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 const ProductsSection = () => {
   const productCategories = [
     {
-      image: "https://www.finolex.com/media/FINOULTRA__wires_banner3_17112023130607.jpg",
+      image: "https://www.finolex.com/UploadedDocs/FinoUltra.png",
       title: "FINOULTRA Wires",
       description: "Premium flame retardant wires with superior quality and durability for residential use."
     },
