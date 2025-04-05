@@ -4,31 +4,31 @@ import { motion } from 'framer-motion';
 const TestimonialsSection = () => {
   const testimonials = [
     {
-      content: "It's the best electric wire in the market.",
-      name: "Anil Kumar",
-      position: "Google Review",
-      initials: "AK",
+      content: "I recently visited Shri Hindwani electrical for some electrical supplies, and overall, it was a positive experience. The store had a wide variety of products, I found exactly what I needed, and the prices seemed reasonable compared to other stores in the area.",
+      name: "Harish Reddy",
+      position: "Customer",
+      initials: "HR",
       rating: 5
     },
     {
-      content: "Excellent Service and Good quality products",
-      name: "Swarup Ronghe",
-      position: "Google Review",
-      initials: "SR",
+      content: "Great matwrial. Best quality. They sent the material to our site. Tge process was hassle free. Very happy with the Finolex and Legrand switches purchase.",
+      name: "Gangadhar Shilll",
+      position: "Customer",
+      initials: "GS",
       rating: 5
     },
     {
-      content: "One of the oldest and reputed dealer of electrical goods in Mamulpet.",
-      name: "RAJESH SHA",
-      position: "Google Review",
-      initials: "RS",
+      content: "Purchased newly launched FINOULTRA wires for my home. Very impressed by their quality and specifications. Would recommend new buyers to buy this latest wire.",
+      name: "Anuj vish",
+      position: "Customer",
+      initials: "AV",
       rating: 5
     },
     {
-      content: "Best products and reasonable prices.",
-      name: "Nirvith Gowda",
-      position: "Google Review",
-      initials: "NG",
+      content: "I recently visited sri Hindwani for some electrical wires, and I was impressed with their wide selection and quality. They offer a variety of wires, including copper, aluminum, and insulated cables, all at competitive prices. The staff was knowledgeable and helped me choose the right wires for my needs. The pricing was fair, and they even provided guidance on installation and durability. I appreciate their excellent customer service and well-stocked inventory. Highly recommended for anyone looking for quality electrical wires!",
+      name: "Santosh Kumar",
+      position: "Customer",
+      initials: "SK",
       rating: 5
     }
   ];
@@ -102,7 +102,7 @@ const TestimonialsSection = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-4 font-['Inter']">Customer Testimonials</h2>
           <div className="w-20 h-1 bg-[#FF6B00] mx-auto mb-6"></div>
           <p className="text-lg max-w-3xl mx-auto">
-            Real reviews from our satisfied customers on Google Maps.
+            Real reviews from our satisfied customers who have experienced our quality products and service.
           </p>
         </motion.div>
 
