@@ -4,31 +4,31 @@ import { motion } from 'framer-motion';
 const TestimonialsSection = () => {
   const testimonials = [
     {
-      content: "Finolex Electric provided exceptional service for our office renovation. Their team was professional, punctual, and the quality of work exceeded our expectations.",
-      name: "John Davis",
-      position: "Business Owner",
-      initials: "JD",
+      content: "It's the best electric wire in the market.",
+      name: "Anil Kumar",
+      position: "Google Review",
+      initials: "AK",
       rating: 5
     },
     {
-      content: "I've been purchasing supplies from Finolex for my electrical contracting business for years. Their product quality and customer service are consistently outstanding.",
-      name: "Sarah Rodriguez",
-      position: "Electrical Contractor",
+      content: "Excellent Service and Good quality products",
+      name: "Swarup Ronghe",
+      position: "Google Review",
       initials: "SR",
       rating: 5
     },
     {
-      content: "The team at Finolex installed a complete lighting system in our new home. The results are beautiful, and their attention to detail was impressive. Highly recommended!",
-      name: "Michael Parker",
-      position: "Homeowner",
-      initials: "MP",
-      rating: 4.5
+      content: "One of the oldest and reputed dealer of electrical goods in Mamulpet.",
+      name: "RAJESH SHA",
+      position: "Google Review",
+      initials: "RS",
+      rating: 5
     },
     {
-      content: "As a property manager, I've worked with many electrical suppliers, but Finolex stands out for their reliability and expertise. They're my go-to for all electrical needs.",
-      name: "Emma Thompson",
-      position: "Property Manager",
-      initials: "ET",
+      content: "Best products and reasonable prices.",
+      name: "Nirvith Gowda",
+      position: "Google Review",
+      initials: "NG",
       rating: 5
     }
   ];
@@ -102,7 +102,7 @@ const TestimonialsSection = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-4 font-['Inter']">Customer Testimonials</h2>
           <div className="w-20 h-1 bg-[#FF6B00] mx-auto mb-6"></div>
           <p className="text-lg max-w-3xl mx-auto">
-            See what our satisfied customers have to say about our products and services.
+            Real reviews from our satisfied customers on Google Maps.
           </p>
         </motion.div>
 
