@@ -12,7 +12,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import GoogleMap from "@/components/ui/google-map";
+
 
 // Extend the schema with additional validation
 const formSchema = insertContactSubmissionSchema.extend({
@@ -152,9 +152,9 @@ const ContactSection = () => {
                         </FormControl>
                         <SelectContent>
                           <SelectItem value="product_inquiry">Product Inquiry</SelectItem>
-                          <SelectItem value="service_request">Service Request</SelectItem>
-                          <SelectItem value="quote_request">Quote Request</SelectItem>
-                          <SelectItem value="support">Technical Support</SelectItem>
+                          <SelectItem value="quote_request">Price Quote</SelectItem>
+                          <SelectItem value="stock_inquiry">Stock Availability</SelectItem>
+                          <SelectItem value="bulk_order">Bulk Order</SelectItem>
                           <SelectItem value="other">Other</SelectItem>
                         </SelectContent>
                       </Select>
@@ -237,15 +237,23 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-bold text-lg mb-1">Business Hours</h4>
-                  <p className="text-gray-600">Monday - Friday: 8:00 AM - 6:00 PM</p>
-                  <p className="text-gray-600">Saturday: 9:00 AM - 4:00 PM</p>
+                  <p className="text-gray-600">Monday - Saturday: 10:30 AM - 8:00 PM</p>
                   <p className="text-gray-600">Sunday: Closed</p>
                 </div>
               </div>
             </div>
 
-            <div className="rounded-lg overflow-hidden shadow-md h-64 mb-6">
-              <GoogleMap height="100%" />
+            <div className="rounded-lg overflow-hidden shadow-md p-5 bg-white mb-6 text-center">
+              <h4 className="font-bold text-lg mb-3">Find Us on Google Maps</h4>
+              <a 
+                href="https://g.co/kgs/8urq88Y" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="bg-[#0052A5] text-white font-medium py-2 px-4 rounded-md inline-flex items-center hover:bg-[#FF6B00] transition-colors"
+              >
+                <i className="fas fa-map-marker-alt mr-2"></i>
+                View on Google Maps
+              </a>
             </div>
 
             <div className="flex space-x-4">

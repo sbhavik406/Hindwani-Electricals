@@ -8,14 +8,14 @@ const AboutSection = () => {
       description: "We offer only the finest electrical supplies from trusted brands and manufacturers, ensuring safety and reliability."
     },
     {
-      icon: "fas fa-tools",
-      title: "Expert Services",
-      description: "Our team of certified electricians provides professional installation, maintenance, and repair services."
+      icon: "fas fa-star",
+      title: "Authentic Finolex Products",
+      description: "As an authorized dealer, we provide genuine Finolex wires and cables with manufacturer warranty."
     },
     {
-      icon: "fas fa-headset",
-      title: "Customer Support",
-      description: "We're committed to exceptional service before, during, and after every purchase or installation."
+      icon: "fas fa-store",
+      title: "Competitive Pricing",
+      description: "We offer the best market rates on all electrical products with discounts for bulk purchases."
     }
   ];
 
@@ -52,7 +52,7 @@ const AboutSection = () => {
           </h2>
           <div className="w-20 h-1 bg-[#FF6B00] mx-auto mb-6"></div>
           <p className="text-lg max-w-3xl mx-auto">
-            As an authorized Finolex dealer in Bengaluru, we are committed to providing the highest quality electrical products and services to homes and businesses across the region.
+            As an authorized Finolex dealer in Bengaluru, we are committed to providing the highest quality electrical products to homes and businesses across the region.
           </p>
         </motion.div>
 
