@@ -5,19 +5,34 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <h3 className="text-xl font-bold mb-4 font-['Inter']">Sri Hindwani Electricals</h3>
-            <p className="mb-4">Authorized Finolex dealer providing quality electrical supplies and professional services in Bengaluru.</p>
+            <p className="mb-4">Authorized Finolex dealer providing quality electrical wires and cables in Bengaluru since 2005.</p>
             <div className="flex space-x-4">
-              <a href="#" className="text-white hover:text-[#FF6B00] transition-colors">
+              <a 
+                href="https://www.facebook.com/hindwanielectrical/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-white hover:text-[#FF6B00] transition-colors"
+                aria-label="Facebook Page"
+              >
                 <i className="fab fa-facebook-f"></i>
               </a>
-              <a href="#" className="text-white hover:text-[#FF6B00] transition-colors">
-                <i className="fab fa-twitter"></i>
+              <a 
+                href="https://www.justdial.com/jdmart/Bangalore/Sri-Hindwani-Electricals-Near-Hotel-Vijay-Vihar-Chickpete/080P11446_BZDET/catalogue" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-white hover:text-[#FF6B00] transition-colors"
+                aria-label="JustDial Page"
+              >
+                <i className="fas fa-search-location"></i>
               </a>
-              <a href="#" className="text-white hover:text-[#FF6B00] transition-colors">
-                <i className="fab fa-instagram"></i>
-              </a>
-              <a href="#" className="text-white hover:text-[#FF6B00] transition-colors">
-                <i className="fab fa-linkedin-in"></i>
+              <a 
+                href="https://www.indiamart.com/sri-hindwani-electricals/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-white hover:text-[#FF6B00] transition-colors"
+                aria-label="IndiaMart Page"
+              >
+                <i className="fas fa-shopping-bag"></i>
               </a>
             </div>
           </div>
@@ -26,8 +41,8 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4 font-['Inter']">Quick Links</h3>
             <ul className="space-y-2">
               <li><a href="#home" className="hover:text-[#FF6B00] transition-colors">Home</a></li>
+              <li><a href="#about" className="hover:text-[#FF6B00] transition-colors">About Us</a></li>
               <li><a href="#products" className="hover:text-[#FF6B00] transition-colors">Products</a></li>
-              <li><a href="#services" className="hover:text-[#FF6B00] transition-colors">Services</a></li>
               <li><a href="#testimonials" className="hover:text-[#FF6B00] transition-colors">Testimonials</a></li>
               <li><a href="#contact" className="hover:text-[#FF6B00] transition-colors">Contact Us</a></li>
             </ul>
@@ -61,7 +76,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <i className="fas fa-clock mr-3 text-[#FF6B00]"></i>
-                <span>Mon-Fri: 8AM-6PM</span>
+                <span>Mon-Sat: 10:30AM-8PM, Sun: Closed</span>
               </li>
             </ul>
           </div>
