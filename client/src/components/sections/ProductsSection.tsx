@@ -4,22 +4,22 @@ import { Button } from "@/components/ui/button";
 const ProductsSection = () => {
   const productCategories = [
     {
-      image: "https://www.finolex.com/assets/img/products/products-list-1-INSULATED-WIRES.jpg",
+      image: "https://www.finolex.com/media/FINOULTRA__wires_banner3_17112023130607.jpg",
       title: "FINOULTRA Wires",
       description: "Premium flame retardant wires with superior quality and durability for residential use."
     },
     {
-      image: "https://www.finolex.com/assets/img/products/products-list-2-PANEL-WIRES.jpg",
+      image: "https://images.jdmagicbox.com/v2/comp/bangalore/46/080p11446/catalogue/sri-hindwani-electricals-chickpete-bangalore-electrical-goods-dealers-bb8fieviar.jpg",
       title: "Panel Wires",
       description: "High-quality panel wires for electrical installations with excellent insulation."
     },
     {
-      image: "https://www.finolex.com/assets/img/products/products-list-5-DOMESTIC-CABLES.jpg",
+      image: "https://www.finolex.com/UploadedImages/newCables2.png",
       title: "Domestic Cables",
       description: "Reliable domestic cables for all your household electrical needs."
     },
     {
-      image: "https://www.finolex.com/assets/img/products/products-list-3-INDUSTRIAL-CABLES.jpg",
+      image: "https://www.finolex.com/UploadedImages/image8.jpg",
       title: "Industrial Cables",
       description: "Heavy-duty industrial cables designed for commercial applications with safety."
     }

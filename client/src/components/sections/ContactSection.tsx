@@ -256,19 +256,37 @@ const ContactSection = () => {
               </a>
             </div>
 
-            <div className="flex space-x-4">
-              <a href="#" className="bg-[#0052A5] text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-[#FF6B00] transition-colors">
-                <i className="fab fa-facebook-f"></i>
-              </a>
-              <a href="#" className="bg-[#0052A5] text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-[#FF6B00] transition-colors">
-                <i className="fab fa-twitter"></i>
-              </a>
-              <a href="#" className="bg-[#0052A5] text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-[#FF6B00] transition-colors">
-                <i className="fab fa-instagram"></i>
-              </a>
-              <a href="#" className="bg-[#0052A5] text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-[#FF6B00] transition-colors">
-                <i className="fab fa-linkedin-in"></i>
-              </a>
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <h4 className="font-bold text-lg mb-3">Connect With Us</h4>
+              <div className="flex space-x-4">
+                <a 
+                  href="https://www.facebook.com/hindwanielectrical/" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="bg-[#0052A5] text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-[#FF6B00] transition-colors"
+                  aria-label="Facebook Page"
+                >
+                  <i className="fab fa-facebook-f"></i>
+                </a>
+                <a 
+                  href="https://www.justdial.com/jdmart/Bangalore/Sri-Hindwani-Electricals-Near-Hotel-Vijay-Vihar-Chickpete/080P11446_BZDET/catalogue" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="bg-[#0052A5] text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-[#FF6B00] transition-colors"
+                  aria-label="JustDial Page"
+                >
+                  <i className="fas fa-search-location"></i>
+                </a>
+                <a 
+                  href="https://www.indiamart.com/sri-hindwani-electricals/" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="bg-[#0052A5] text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-[#FF6B00] transition-colors"
+                  aria-label="IndiaMart Page"
+                >
+                  <i className="fas fa-shopping-bag"></i>
+                </a>
+              </div>
             </div>
           </motion.div>
         </div>

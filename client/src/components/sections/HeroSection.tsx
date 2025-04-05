@@ -42,7 +42,7 @@ const HeroSection = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <img 
-              src="https://content.jdmagicbox.com/comp/bangalore/w1/080pxx80.xx80.170627160301.n4w1/catalogue/sri-hindwani-electricals-chickpete-bangalore-electrical-shops-1uegmxuodm.jpg" 
+              src="https://lh3.googleusercontent.com/gps-cs-s/AB5caB_YlnFnWrz3z_3b1eRP-IDhfM93XTnl4-UmdaGHmNV2TYOlNJqL6HNT4Prb_EbwBMVQEnvBlXQ0WsmLdcnCpoF9N4kY0tBv9qlMqsNVhQrUoNwxdbDmuUn4l9XOdt_U7HeN/s1360-w1360-h1020" 
               alt="Sri Hindwani Electricals Store" 
               className="rounded-lg shadow-xl object-cover" 
               width="600" 
